@@ -57,21 +57,20 @@ body {
   font-size: 13px;
 }
 
-
 /*==================================================
   Typography
   ==================================================*/
 
 @font-face {
-  font-family: "Agency FB";
-  src: url("../fonts/agency-fb.eot")
-    /* EOT file for IE */
+  font-family: 'Agency FB';
+  src: url('../fonts/agency-fb.eot');
+  /* EOT file for IE */
 }
 
 @font-face {
-  font-family: "Agency FB";
-  src: url("../fonts/agency-fb.ttf")
-    /* TTF file for CSS3 browsers */
+  font-family: 'Agency FB';
+  src: url('../fonts/agency-fb.ttf');
+  /* TTF file for CSS3 browsers */
 }
 
 h1,
@@ -130,7 +129,7 @@ a {
 }
 
 a:hover {
-  color: #149AC9;
+  color: #149ac9;
 }
 
 a,
@@ -142,24 +141,22 @@ a:focus {
 section h1.section-title {
   font-family: 'Agency FB', sans-serif;
   font-size: 215px;
-  color: #E6E7E8;
+  color: #e6e7e8;
   margin-bottom: -55px;
 }
 
 section h2.sub-title {
   font-family: 'Agency FB', sans-serif;
-  color: #E6E7E8;
+  color: #e6e7e8;
   font-size: 50px;
   margin: 40px 0;
 }
-
 
 .following {
   color: #8dc63f;
   font-size: 12px;
   margin-left: 20px;
 }
-
 
 /*==================================================
   Common
@@ -193,7 +190,7 @@ section .wrapper {
 }
 
 .btn-primary:hover {
-  background: #149AC9;
+  background: #149ac9;
   transition: all 1s;
 }
 
@@ -241,31 +238,31 @@ section .wrapper {
   right: 0;
   bottom: 0;
   background-color: #ccc;
-  -webkit-transition: .4s;
-  transition: .4s;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
 }
 
 .sliders:before {
   position: absolute;
-  content: "";
+  content: '';
   height: 26px;
   width: 26px;
   left: 4px;
   bottom: 4px;
   background-color: white;
-  -webkit-transition: .4s;
-  transition: .4s;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
 }
 
-input:checked+.sliders {
+input:checked + .sliders {
   background-color: #27aae1;
 }
 
-input:focus+.sliders {
+input:focus + .sliders {
   box-shadow: 0 0 1px #27aae1;
 }
 
-input:checked+.sliders:before {
+input:checked + .sliders:before {
   -webkit-transform: translateX(26px);
   -ms-transform: translateX(26px);
   transform: translateX(26px);
@@ -287,15 +284,9 @@ input:checked+.sliders:before {
   left: 65px;
   top: 5px;
   color: green;
-
 }
-
 
 /* Create post start  */
-.post-width {
-  /* height: 200px; */
-}
-
 .opt-col {
   display: inline-block;
   /* border: 2px solid red; */
@@ -324,7 +315,7 @@ input:checked+.sliders:before {
 
 /* Options / Answers of poll */
 .add-options {
-  color: #8DC63F;
+  color: #8dc63f;
   display: inline-block;
   font-size: 22px;
   position: relative;
@@ -347,7 +338,7 @@ input:checked+.sliders:before {
   margin: 10px;
 }
 
-.radio-toolbar input[type="radio"] {
+.radio-toolbar input[type='radio'] {
   opacity: 0;
   position: fixed;
   width: 0;
@@ -367,11 +358,11 @@ input:checked+.sliders:before {
   background-color: rgba(20, 153, 201, 0.319);
 }
 
-.radio-toolbar input[type="radio"]:focus+label {
-  border: 1.5px dashed #149AC9;
+.radio-toolbar input[type='radio']:focus + label {
+  border: 1.5px dashed #149ac9;
 }
 
-.radio-toolbar input[type="radio"]:checked+label {
+.radio-toolbar input[type='radio']:checked + label {
   background-color: rgba(20, 153, 201, 0.319);
   /* border-color: #4c4; */
 }
@@ -407,7 +398,7 @@ input:checked+.sliders:before {
   width: 280px;
   height: 125px;
   background-color: #fff;
-  color: #231F20;
+  color: #231f20;
   font-size: 20px;
   font-weight: bold;
   display: none;
@@ -437,10 +428,8 @@ input:checked+.sliders:before {
 
 /* delete poll option */
 
-
 /* media code for latest updation */
-@media screen and (max-width:500px) {
-
+@media screen and (max-width: 500px) {
   .opt-col {
     top: 0px;
   }
@@ -449,39 +438,36 @@ input:checked+.sliders:before {
     left: 360px;
     font-size: 28px;
   }
-
 }
 
-@media screen and (max-width:600px) {
-
+@media screen and (max-width: 600px) {
   .opt-col {
     top: 0px;
   }
-
 }
 
-@media screen and (max-width:700px) {
+@media screen and (max-width: 700px) {
   .delete-poll-icon {
     left: 524px;
     font-size: 28px;
   }
 }
 
-@media screen and (max-width:800px) {
+@media screen and (max-width: 800px) {
   .delete-poll-icon {
     left: 594px;
     font-size: 28px;
   }
 }
 
-@media screen and (max-width:600px) {
+@media screen and (max-width: 600px) {
   .delete-poll-icon {
     left: 340px;
     font-size: 28px;
   }
 }
 
-@media screen and (max-width:430px) {
+@media screen and (max-width: 430px) {
   .delete-poll-icon {
     left: 250px;
     font-size: 28px;
@@ -492,7 +478,7 @@ input:checked+.sliders:before {
   }
 }
 
-@media screen and (max-width:500px) {
+@media screen and (max-width: 500px) {
   #delete-poll-pop {
     left: 0px;
   }
@@ -500,7 +486,6 @@ input:checked+.sliders:before {
 
 /* MEDIA CODE END */
 /* Create post end  */
-
 
 section img {
   margin: auto;
@@ -541,7 +526,7 @@ img.profile-photo-xs {
 }
 
 .img-wrapper::after {
-  content: "";
+  content: '';
   cursor: pointer;
   left: 0;
   position: absolute;
@@ -560,7 +545,7 @@ ul {
 }
 
 ul li {
-  list-style-image: url("../images/bullet.png");
+  list-style-image: url('../images/bullet.png');
 }
 
 .line {
@@ -611,7 +596,6 @@ textarea {
   width: 100% !important;
 }
 
-
 /*==================================================
   Header
   ==================================================*/
@@ -621,7 +605,7 @@ textarea {
 }
 
 .menu {
-  background: #231F20;
+  background: #231f20;
   border: none;
   border-radius: 0;
   margin-bottom: 0;
@@ -679,7 +663,7 @@ textarea {
 }
 
 .menu ul.main-menu li ul.dropdown-menu {
-  background: #231F20;
+  background: #231f20;
   box-shadow: none;
   border: 0;
   padding: 0;
@@ -688,7 +672,7 @@ textarea {
 .menu ul.main-menu li ul.dropdown-menu li {
   list-style: none;
   padding: 5px 0;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1)
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .menu ul.main-menu li ul.dropdown-menu li a,
@@ -715,7 +699,7 @@ textarea {
   position: fixed;
   left: 0;
   right: 0;
-  transition: .5s ease-in-out;
+  transition: 0.5s ease-in-out;
   transform: translateY(-50px);
   z-index: 99999;
 }
@@ -724,7 +708,6 @@ textarea {
   visibility: visible;
   transform: translateY(0);
 }
-
 
 /*Transparent Background Header for Landing Page-2*/
 
@@ -740,26 +723,25 @@ textarea {
 }
 
 #header-inverse .menu ul.main-menu li ul.dropdown-menu::before {
-  content: "";
+  content: '';
   display: block;
   position: absolute;
   right: 20px;
   bottom: 100%;
   width: 0;
   height: 0;
-  border-bottom: 10px solid #231F20;
+  border-bottom: 10px solid #231f20;
   border-top: 10px solid transparent;
   border-left: 10px solid transparent;
   border-right: 10px solid transparent;
 }
-
 
 /*==================================================
   Homepage Top Banner
   ==================================================*/
 
 #banner {
-  background: url("http://placehold.it/1920x900") fixed no-repeat;
+  background: url('http://placehold.it/1920x900') fixed no-repeat;
   background-position: center;
   background-size: cover;
   width: 100%;
@@ -773,7 +755,7 @@ textarea {
   ==================================================*/
 
 .sign-up-form {
-  background: linear-gradient(to bottom, rgba(43, 57, 144, .8), rgba(39, 170, 225, 1) 65%);
+  background: linear-gradient(to bottom, rgba(43, 57, 144, 0.8), rgba(39, 170, 225, 1) 65%);
   position: absolute;
   width: 340px;
   min-height: 600px;
@@ -785,7 +767,7 @@ textarea {
 }
 
 .sign-up-form:after {
-  content: "";
+  content: '';
   border-color: #27aae1 transparent transparent;
   border-style: solid;
   border-width: 40px 170px 0;
@@ -804,7 +786,7 @@ textarea {
 .sign-up-form .line-divider {
   background: none;
   height: 1px;
-  border-top: 1px solid rgba(255, 255, 255, .20);
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
   width: 180px;
   margin: auto;
   margin-bottom: 10px;
@@ -812,7 +794,7 @@ textarea {
 
 .sign-up-form .form-wrapper {
   padding: 20px 20px 0;
-  border: 1px solid rgba(255, 255, 255, .2);
+  border: 1px solid rgba(255, 255, 255, 0.2);
   border-top: none;
   margin-bottom: 30px;
 }
@@ -851,22 +833,22 @@ textarea {
   top: 100%;
 }
 
-
 /*==================================================
   Features Section
   ==================================================*/
 
 #features {
-  background: #EFEFEF;
-  background: radial-gradient(#fff 50%, #EFEFEF 90%);
-  background: -moz-radial-gradient(#fff 50%, #EFEFEF 90%);
-  background: -webkit-radial-gradient(#fff 50%, #EFEFEF 90%);
-  background: -o-radial-gradient(#fff 50%, #EFEFEF 90%);
+  background: #efefef;
+  background: radial-gradient(#fff 50%, #efefef 90%);
+  background: -moz-radial-gradient(#fff 50%, #efefef 90%);
+  background: -webkit-radial-gradient(#fff 50%, #efefef 90%);
+  background: -o-radial-gradient(#fff 50%, #efefef 90%);
   text-align: center;
 }
 
 #features .feature-item .feature-icon {
-  background: linear-gradient(to bottom, rgba(43, 57, 144, .8), rgba(39, 170, 225, .8) 65%), url("../images/blur.png") no-repeat;
+  background: linear-gradient(to bottom, rgba(43, 57, 144, 0.8), rgba(39, 170, 225, 0.8) 65%),
+    url('../images/blur.png') no-repeat;
   background-size: cover;
   background-position: center;
   width: 110px;
@@ -912,7 +894,7 @@ textarea {
 
 #incremental-counter .num::before {
   background: #00aae6;
-  content: "";
+  content: '';
   display: block;
   height: 1px;
   left: -1px;
@@ -926,7 +908,6 @@ textarea {
 #features img.face-map {
   margin: 0 auto -250px;
 }
-
 
 /*==================================================
   App Download Section
@@ -953,8 +934,8 @@ textarea {
 }
 
 #app-download ul.app-btn li button::after {
-  content: "";
-  background: linear-gradient(to bottom, rgba(0, 0, 0, .1), transparent 70%);
+  content: '';
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), transparent 70%);
   height: 36px;
   width: auto;
   position: absolute;
@@ -964,26 +945,25 @@ textarea {
   border-radius: 6px;
 }
 
-
 /*==================================================
   Homepage Image Divider
   ==================================================*/
 
 .img-divider {
-  background: url("http://placehold.it/1920x460") no-repeat;
+  background: url('http://placehold.it/1920x460') no-repeat;
   background-size: cover;
   text-align: center;
   min-height: 460px;
   background-position: center;
 }
 
-
 /*==================================================
   Site Facts Section
   ==================================================*/
 
 #site-facts {
-  background: radial-gradient(rgba(0, 0, 0, 0.7) 40%, rgba(0, 0, 0, 1) 100%), url("http://placehold.it/1920x1280") fixed no-repeat;
+  background: radial-gradient(rgba(0, 0, 0, 0.7) 40%, rgba(0, 0, 0, 1) 100%),
+    url('http://placehold.it/1920x1280') fixed no-repeat;
   background-size: cover;
   height: 500px !important;
   text-align: center;
@@ -1016,7 +996,7 @@ textarea {
 }
 
 #site-facts .circle ul.facts-list li:nth-child(1)::before {
-  content: "";
+  content: '';
   border-left: 1px solid rgba(255, 255, 255, 0.2);
   height: 75px;
   position: absolute;
@@ -1024,14 +1004,14 @@ textarea {
 }
 
 #site-facts .circle ul.facts-list li:nth-child(1)::after {
-  content: "";
+  content: '';
   border-left: 1px solid rgba(255, 255, 255, 0.2);
   height: 34px;
   position: absolute;
 }
 
 #site-facts .circle ul.facts-list li:nth-child(2)::after {
-  content: "";
+  content: '';
   border-left: 1px solid rgba(255, 255, 255, 0.2);
   height: 34px;
   position: absolute;
@@ -1042,7 +1022,7 @@ textarea {
 }
 
 #site-facts .circle ul.facts-list li:nth-child(3)::after {
-  content: "";
+  content: '';
   border-left: 1px solid rgba(255, 255, 255, 0.2);
   height: 75px;
   position: absolute;
@@ -1050,7 +1030,7 @@ textarea {
 }
 
 #site-facts .circle .fact-icon {
-  background: rgba(255, 255, 255, .1);
+  background: rgba(255, 255, 255, 0.1);
   height: 60px;
   width: 60px;
   border-radius: 50%;
@@ -1060,7 +1040,6 @@ textarea {
 #site-facts .circle .fact-icon {
   font-size: 50px;
 }
-
 
 /*==================================================
   Live Feed Section Homepage
@@ -1075,13 +1054,13 @@ textarea {
   margin: 0;
 }
 
-
 /*==================================================
   Landing Page: V2 | Register/Login
   ==================================================*/
 
 #lp-register {
-  background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("http://placehold.it/1920x1280") fixed no-repeat;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url('http://placehold.it/1920x1280') fixed no-repeat;
   background-size: cover;
   background-position: center;
   position: absolute;
@@ -1116,12 +1095,11 @@ textarea {
   content: none;
 }
 
-
 /*Registration Form Container*/
 
 .reg-form-container {
   background: #fff;
-  box-shadow: 0 0 35px rgba(0, 0, 0, .4);
+  box-shadow: 0 0 35px rgba(0, 0, 0, 0.4);
   padding: 40px 40px 40px 60px;
   border-radius: 6px;
   position: relative;
@@ -1130,8 +1108,8 @@ textarea {
 }
 
 .reg-form-container::before {
-  content: "";
-  background: rgba(255, 255, 255, .1);
+  content: '';
+  background: rgba(255, 255, 255, 0.1);
   width: 95%;
   height: 70%;
   border-radius: 6px;
@@ -1143,8 +1121,8 @@ textarea {
 }
 
 .reg-form-container::after {
-  content: "";
-  background: rgba(255, 255, 255, .1);
+  content: '';
+  background: rgba(255, 255, 255, 0.1);
   width: 90%;
   height: 65%;
   border-radius: 6px;
@@ -1156,7 +1134,7 @@ textarea {
 }
 
 .reg-form-container .reg-options::before {
-  content: "";
+  content: '';
   background: linear-gradient(to right, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.05));
   height: 70%;
   width: 50px;
@@ -1168,7 +1146,6 @@ textarea {
   z-index: -1;
 }
 
-
 /*Registration Login/Register Tabs*/
 
 .reg-form-container .reg-options .nav-tabs {
@@ -1179,14 +1156,14 @@ textarea {
   border: none;
 }
 
-.reg-form-container .nav-tabs>li {
+.reg-form-container .nav-tabs > li {
   margin-left: 10px;
   margin-right: 10px;
   position: relative;
 }
 
-.reg-form-container .nav-tabs>li::after {
-  content: "";
+.reg-form-container .nav-tabs > li::after {
+  content: '';
   background: rgba(255, 255, 255, 0.1);
   height: 25px;
   width: 1px;
@@ -1195,11 +1172,11 @@ textarea {
   top: 5px;
 }
 
-.reg-form-container .nav-tabs>li:last-child::after {
+.reg-form-container .nav-tabs > li:last-child::after {
   content: none;
 }
 
-.reg-form-container .nav-tabs>li>a {
+.reg-form-container .nav-tabs > li > a {
   background: transparent;
   color: #939598;
   padding: 5px 30px;
@@ -1211,9 +1188,9 @@ textarea {
   border: none;
 }
 
-.reg-form-container .nav-tabs>li.active>a,
-.reg-form-container .nav-tabs>li.active>a:focus,
-.reg-form-container .nav-tabs>li.active>a:hover {
+.reg-form-container .nav-tabs > li.active > a,
+.reg-form-container .nav-tabs > li.active > a:focus,
+.reg-form-container .nav-tabs > li.active > a:hover {
   background: transparent;
   color: #fff;
   font-weight: 700;
@@ -1227,8 +1204,6 @@ textarea {
   margin-bottom: 10px;
 }
 
-
-
 #registration_form .form-control,
 #Login_form .form-control {
   background: #fff;
@@ -1241,7 +1216,8 @@ textarea {
 }
 
 #registration_form select.form-control {
-  background: rgba(0, 0, 0, 0) url("../images/down-arrow.png") no-repeat scroll calc(100% - 10px) center / 8px auto;
+  background: rgba(0, 0, 0, 0) url('../images/down-arrow.png') no-repeat scroll calc(100% - 10px)
+    center / 8px auto;
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
@@ -1270,9 +1246,8 @@ textarea {
 
 #lp-register ul.social-icons li a:hover {
   color: #27aae1;
-  transition: all .5s;
+  transition: all 0.5s;
 }
-
 
 /*feed-block and ul.online-users css available below*/
 
@@ -1283,7 +1258,8 @@ textarea {
 /*Profile Card CSS*/
 
 .profile-card {
-  background: linear-gradient(to bottom, rgba(39, 170, 225, .8), rgba(28, 117, 188, .8)), url("http://placehold.it/1030x430") no-repeat;
+  background: linear-gradient(to bottom, rgba(39, 170, 225, 0.8), rgba(28, 117, 188, 0.8)),
+    url('http://placehold.it/1030x430') no-repeat;
   background-size: cover;
   width: 100%;
   min-height: 90px;
@@ -1324,7 +1300,7 @@ ul.nav-news-feed li div {
 }
 
 ul.nav-news-feed li div::after {
-  content: "";
+  content: '';
   width: 100%;
   height: 1px;
   border-top: 1px solid #f1f2f2;
@@ -1416,7 +1392,6 @@ ul.online-users li span.online-dot {
   margin: auto;
 }
 
-
 /*==================================================
   Newsfeed Right Sidebar
   ==================================================*/
@@ -1435,7 +1410,7 @@ ul.online-users li span.online-dot {
 }
 
 .follow-user div::after {
-  content: "";
+  content: '';
   background: none;
   border-top: 1px solid #f1f2f2;
   position: absolute;
@@ -1443,7 +1418,6 @@ ul.online-users li span.online-dot {
   left: 0;
   bottom: -10px;
 }
-
 
 /*==================================================
   Create Post Box CSS
@@ -1465,7 +1439,7 @@ ul.online-users li span.online-dot {
 
 .create-post .form-group .form-control {
   border: 1px solid #ccc;
-  box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
 }
 
 .create-post .form-group img.profile-photo-md {
@@ -1491,7 +1465,6 @@ ul.online-users li span.online-dot {
 .create-post .tools ul.publishing-tools li a:hover {
   color: #27aae1;
 }
-
 
 /*==================================================
   Post Contents CSS
@@ -1551,11 +1524,10 @@ video.post-video,
 .post-content .post-container .post-detail .post-comment .form-control {
   height: 30px;
   border: 1px solid #ccc;
-  box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
   margin: 7px 0;
   min-width: 0;
 }
-
 
 /*==================================================
   Nearby People CSS
@@ -1582,7 +1554,6 @@ video.post-video,
   margin-bottom: 20px;
 }
 
-
 /*==================================================
   Friend List CSS = Newsfeed and Timeline
   ==================================================*/
@@ -1602,7 +1573,6 @@ video.post-video,
   margin-top: -60px;
   border: 7px solid #fff;
 }
-
 
 /*==================================================
   Chat Room CSS
@@ -1679,7 +1649,7 @@ video.post-video,
 }
 
 .chat-room .chat-body ul.chat-message li.left .chat-item {
-  background: rgba(141, 198, 63, .1);
+  background: rgba(141, 198, 63, 0.1);
   margin-left: 50px;
   padding: 5px 10px;
   position: relative;
@@ -1688,9 +1658,9 @@ video.post-video,
 
 .chat-room .chat-body ul.chat-message li.left .chat-item::before {
   border-bottom: 10px solid transparent;
-  border-right: 8px solid rgba(141, 198, 63, .1);
+  border-right: 8px solid rgba(141, 198, 63, 0.1);
   border-top: 10px solid transparent;
-  content: "";
+  content: '';
   height: 0;
   left: -8px;
   position: absolute;
@@ -1704,7 +1674,7 @@ video.post-video,
 }
 
 .chat-room .chat-body ul.chat-message li.right .chat-item {
-  background: rgba(39, 170, 225, .1);
+  background: rgba(39, 170, 225, 0.1);
   margin-right: 50px;
   padding: 5px 10px;
   position: relative;
@@ -1713,9 +1683,9 @@ video.post-video,
 
 .chat-room .chat-body ul.chat-message li.right .chat-item::after {
   border-bottom: 10px solid transparent;
-  border-left: 8px solid rgba(39, 170, 225, .1);
+  border-left: 8px solid rgba(39, 170, 225, 0.1);
   border-top: 10px solid transparent;
-  content: "";
+  content: '';
   height: 0;
   right: -8px;
   position: absolute;
@@ -1773,7 +1743,6 @@ video.post-video,
   width: 100%;
 }
 
-
 /*==================================================
   Media = Images and Videos CSS
   ==================================================*/
@@ -1814,13 +1783,12 @@ video {
   margin: 0;
 }
 
-
 /*==================================================
   Timeline
   ==================================================*/
 
 .timeline-cover {
-  background: url("http://placehold.it/1030x360") no-repeat;
+  background: url('http://placehold.it/1030x360') no-repeat;
   background-position: center;
   background-size: cover;
   min-height: 360px;
@@ -1831,7 +1799,7 @@ video {
 /*Timeline Menu for Large Screens*/
 
 .timeline-cover .timeline-nav-bar {
-  background: rgba(0, 0, 0, .7);
+  background: rgba(0, 0, 0, 0.7);
   width: 100%;
   position: absolute;
   bottom: 25px;
@@ -1918,7 +1886,7 @@ video {
 }
 
 .timeline-cover .navbar-mobile .mobile-menu ul li::after {
-  content: "";
+  content: '';
   height: 20px;
   background: none;
   border-right: 1px solid #f1f2f2;
@@ -1938,7 +1906,6 @@ video {
   color: #27aae1;
 }
 
-
 /*==================================================
   Timeline Sidebar Right
   ==================================================*/
@@ -1954,7 +1921,7 @@ video {
   border-left: 2px solid #8dc63f;
   position: absolute;
   height: 30px;
-  content: "";
+  content: '';
   left: 0;
   top: 5px;
 }
@@ -1968,7 +1935,6 @@ video {
   border-bottom: 1px solid #f1f2f2;
 }
 
-
 /*==================================================
  Post Date
 ==================================================*/
@@ -1979,7 +1945,7 @@ video {
 }
 
 .timeline .post-content::before {
-  content: "";
+  content: '';
   position: absolute;
   background: none;
   width: 1px;
@@ -1995,7 +1961,7 @@ video {
 }
 
 .timeline .post-content .post-date::before {
-  content: "";
+  content: '';
   background: #8dc63f;
   position: absolute;
   width: 20px;
@@ -2009,7 +1975,6 @@ video {
 .timeline .post-content img.post-image {
   border-radius: 4px 4px 0 0;
 }
-
 
 /*==================================================
   About Profile
@@ -2069,7 +2034,6 @@ ul.interests span.int-icons {
   pointer-events: auto;
 }
 
-
 /*==================================================
   Profile Album
   ==================================================*/
@@ -2077,7 +2041,6 @@ ul.interests span.int-icons {
 ul.album-photos {
   padding: 0;
   margin: 0 auto 20px;
-  ;
   display: block;
   font-size: 0;
   text-align: center;
@@ -2093,7 +2056,6 @@ ul.album-photos li {
 ul.album-photos li img {
   max-width: 100%;
 }
-
 
 /*==================================================
   Edit Profile
@@ -2114,7 +2076,7 @@ ul.edit-menu li {
 }
 
 ul.edit-menu li.active::before {
-  content: "";
+  content: '';
   background: #8dc63f;
   width: 2px;
   height: 40px;
@@ -2157,7 +2119,8 @@ ul.edit-menu li.active a {
 }
 
 .edit-block select.form-control {
-  background: rgba(0, 0, 0, 0) url(../images/down-arrow.png) no-repeat scroll calc(100% - 10px) center / 8px auto;
+  background: rgba(0, 0, 0, 0) url(../images/down-arrow.png) no-repeat scroll calc(100% - 10px)
+    center / 8px auto;
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
@@ -2220,31 +2183,31 @@ ul.edit-menu li.active a {
   right: 0;
   bottom: 0;
   background-color: #f2f2f2;
-  -webkit-transition: .4s;
-  transition: .4s;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
 }
 
 .toggle-switch .slider:before {
   position: absolute;
-  content: "";
+  content: '';
   height: 26px;
   width: 26px;
   left: 4px;
   bottom: 4px;
   background-color: white;
-  -webkit-transition: .4s;
-  transition: .4s;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
 }
 
-input:checked+.slider {
+input:checked + .slider {
   background-color: #8dc63f;
 }
 
-input:focus+.slider {
+input:focus + .slider {
   box-shadow: 0 0 1px #8dc63f;
 }
 
-input:checked+.slider:before {
+input:checked + .slider:before {
   -webkit-transform: translateX(26px);
   -ms-transform: translateX(26px);
   transform: translateX(26px);
@@ -2284,7 +2247,7 @@ input:checked+.slider:before {
 }
 
 .contact-us form.contact-form .form-group {
-  position: relative
+  position: relative;
 }
 
 .contact-us form.contact-form .form-group i {
@@ -2314,7 +2277,7 @@ input:checked+.slider:before {
 .contact-us .reach span {
   border: 1px solid #f1f2f2;
   position: absolute;
-  color: #8DC63F;
+  color: #8dc63f;
   height: 40px;
   width: 40px;
   border-radius: 50%;
@@ -2331,7 +2294,6 @@ input:checked+.slider:before {
   margin-top: 20px;
 }
 
-
 /*==================================================
   Site Footer
   ==================================================*/
@@ -2342,7 +2304,7 @@ input:checked+.slider:before {
 }
 
 #footer::before {
-  content: "";
+  content: '';
   background: linear-gradient(to right, #ffffff 0%, #53cbf1 50%, #ffffff 100%);
   height: 5px;
   width: 100%;
@@ -2413,23 +2375,21 @@ ul.contact li {
 ul.contact li i {
   font-size: 18px;
   margin-right: 20px;
-  color: #27AAE1;
+  color: #27aae1;
 }
 
 .copyright {
-  background: #231F20;
+  background: #231f20;
   text-align: center;
   color: #fff;
   padding: 12px 0 4px;
 }
 
-
 /*==================================================
   CSS for width 992px
   ==================================================*/
 
-@media only screen and (max-width : 992px) {
-
+@media only screen and (max-width: 992px) {
   section h1.section-title {
     font-size: 175px;
     margin-bottom: -40px;
@@ -2451,16 +2411,13 @@ ul.contact li i {
     margin-top: 0;
     margin-bottom: 30px;
   }
-
 }
-
 
 /*==================================================
   CSS for width 768px
   ==================================================*/
 
-@media only screen and (max-width : 768px) {
-
+@media only screen and (max-width: 768px) {
   .menu ul.main-menu li.dropdown ul.dropdown-menu li {
     background: #282425;
   }
@@ -2554,7 +2511,7 @@ ul.contact li i {
     content: none;
   }
 
-  .reg-form-container .nav-tabs>li>a {
+  .reg-form-container .nav-tabs > li > a {
     padding-left: 10px;
     padding-right: 10px;
     min-width: 50px;
@@ -2567,16 +2524,13 @@ ul.contact li i {
   .toggle-switch .switch {
     margin-top: 0;
   }
-
 }
-
 
 /*==================================================
   CSS for width 480px
   ==================================================*/
 
-@media only screen and (max-width : 480px) {
-
+@media only screen and (max-width: 480px) {
   .sign-up-form {
     left: 0;
     right: 0;
@@ -2599,9 +2553,7 @@ ul.contact li i {
     top: 0px;
     left: 20px;
   }
-
 }
-
 
 /*==================================================
   Slide Animations
@@ -2742,7 +2694,6 @@ ul.contact li i {
   }
 }
 
-
 /*==================================================
   Scroll Down Arrow
   ==================================================*/
@@ -2767,40 +2718,39 @@ ul.contact li i {
 
 @keyframes arrow {
   0% {
-    opacity: 0
+    opacity: 0;
   }
 
   40% {
-    opacity: 1
+    opacity: 1;
   }
 
   80% {
-    opacity: 0
+    opacity: 0;
   }
 
   100% {
-    opacity: 0
+    opacity: 0;
   }
 }
 
 @-webkit-keyframes arrow
 
-/*Safari and Chrome*/
-  {
+/*Safari and Chrome*/ {
   0% {
-    opacity: 0
+    opacity: 0;
   }
 
   40% {
-    opacity: 1
+    opacity: 1;
   }
 
   80% {
-    opacity: 0
+    opacity: 0;
   }
 
   100% {
-    opacity: 0
+    opacity: 0;
   }
 }
 
@@ -2819,7 +2769,6 @@ ul.contact li i {
   -webkit-animation-delay: 0s;
 }
 
-
 /*==================================================
   Preloader Animation CSS
   ==================================================*/
@@ -2831,34 +2780,34 @@ ul.contact li i {
   position: absolute;
   top: 48%;
   left: 48%;
-  box-shadow: 0 0 8px rgba(0, 0, 0, .3);
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
   -webkit-animation: sk-rotateplane 1.2s infinite ease-in-out;
   animation: sk-rotateplane 1.2s infinite ease-in-out;
 }
 
 @-webkit-keyframes sk-rotateplane {
   0% {
-    -webkit-transform: perspective(120px)
+    -webkit-transform: perspective(120px);
   }
 
   50% {
-    -webkit-transform: perspective(120px) rotateY(180deg)
+    -webkit-transform: perspective(120px) rotateY(180deg);
   }
 
   100% {
-    -webkit-transform: perspective(120px) rotateY(180deg) rotateX(180deg)
+    -webkit-transform: perspective(120px) rotateY(180deg) rotateX(180deg);
   }
 }
 
 @keyframes sk-rotateplane {
   0% {
     transform: perspective(120px) rotateX(0deg) rotateY(0deg);
-    -webkit-transform: perspective(120px) rotateX(0deg) rotateY(0deg)
+    -webkit-transform: perspective(120px) rotateX(0deg) rotateY(0deg);
   }
 
   50% {
     transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg);
-    -webkit-transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg)
+    -webkit-transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg);
   }
 
   100% {
