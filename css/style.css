@@ -218,8 +218,8 @@ section .wrapper {
   display: inline-block;
   width: 60px;
   height: 34px;
-  top: 10px;
-  left: 20px;
+  top: 400px;
+  right: 552px;
 }
 
 /* Hide default HTML checkbox */
@@ -294,7 +294,7 @@ input:checked + .sliders:before {
   left: 51px;
   height: 85px;
   width: 290px;
-  top: -33px;
+  top: -5px;
   /* display: none;    >>DO NOT TOUCH THIS<<*/
   /* display: block; */
   /* z-index: -44; */
@@ -462,8 +462,16 @@ input:checked + .sliders:before {
 
 @media screen and (max-width: 600px) {
   .delete-poll-icon {
-    left: 340px;
+    left: 436px;
     font-size: 28px;
+  }
+  .switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+    top: 380px;
+    right: 365px;
   }
 }
 
@@ -1507,7 +1515,7 @@ video.post-video,
 
 .post-content .post-container .post-detail .reaction {
   position: absolute;
-  right: 0;
+  right: -65px;
   top: 0;
 }
 

@@ -175,7 +175,7 @@ function myFunction() {
 $(function() {
   $('.create-poll').click(function() {
     $(this).text(function(i, text) {
-      return text === 'Hide' ? 'Create' : 'Hide';
+      return text === 'Create' ? 'Hide' : 'Create';
     });
     $('.answers').slideToggle();
   });
@@ -187,6 +187,7 @@ $('.add-options').click(function() {
   $('.poll-items').append(
     '<li><input type="text" class="option" placeholder="Write Something Here"></li>'
   );
+  console.log(count + ': on plus');
   $('.opt-col').css('height', '+=41px');
   if (count === 1) {
     $('.delete-options').css('display', 'inline-block');
@@ -197,6 +198,8 @@ $('.add-options').click(function() {
 });
 $('.delete-options').on('click', function() {
   $('.opt-col').css('height', '-=41px');
+  count -= 1;
+  console.log(count + ': on minus');
 });
 
 // delete button event
