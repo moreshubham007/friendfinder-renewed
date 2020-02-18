@@ -79,7 +79,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: #27aae1;
+  color: #8827e1;
 }
 
 h1.grey,
@@ -101,11 +101,11 @@ h6.grey {
 }
 
 .text-green {
-  color: #8dc63f;
+  color: #7536ba;
 }
 
 .text-green:hover {
-  color: #39b54a;
+  color: #7f39b5;
 }
 
 .text-red {
@@ -125,11 +125,11 @@ h6.grey {
 }
 
 a {
-  color: #27aae1;
+  color: #9127e1;
 }
 
 a:hover {
-  color: #149ac9;
+  color: #8a14c9;
 }
 
 a,
@@ -153,7 +153,7 @@ section h2.sub-title {
 }
 
 .following {
-  color: #8dc63f;
+  color: #733fc6;
   font-size: 12px;
   margin-left: 20px;
 }
@@ -176,7 +176,7 @@ section .wrapper {
 }
 
 .btn-primary {
-  background: #27aae1;
+  background: #8923d6;
   padding: 7px 17px;
   border: none;
   font-size: 14px;
@@ -190,7 +190,7 @@ section .wrapper {
 }
 
 .btn-primary:hover {
-  background: #149ac9;
+  background: #6910ba;
   transition: all 1s;
 }
 
@@ -219,7 +219,7 @@ section .wrapper {
   width: 60px;
   height: 34px;
   top: 400px;
-  right: 552px;
+  right: 510px;
 }
 
 /* Hide default HTML checkbox */
@@ -255,11 +255,11 @@ section .wrapper {
 }
 
 input:checked + .sliders {
-  background-color: #27aae1;
+  background-color: #8127e1;
 }
 
 input:focus + .sliders {
-  box-shadow: 0 0 1px #27aae1;
+  box-shadow: 0 0 1px #8127e1;
 }
 
 input:checked + .sliders:before {
@@ -355,15 +355,15 @@ input:checked + .sliders:before {
 }
 
 .radio-toolbar label:hover {
-  background-color: rgba(20, 153, 201, 0.319);
+  background-color: rgba(114, 20, 201, 0.319);
 }
 
 .radio-toolbar input[type='radio']:focus + label {
-  border: 1.5px dashed #149ac9;
+  border: 1.5px dashed #732fcc;
 }
 
 .radio-toolbar input[type='radio']:checked + label {
-  background-color: rgba(20, 153, 201, 0.319);
+  background-color: rgba(48, 20, 201, 0.319);
   /* border-color: #4c4; */
 }
 
@@ -414,7 +414,7 @@ input:checked + .sliders:before {
   margin: 5px 20px;
   padding: 5px 25px;
   border: none;
-  background-color: #48b6e6;
+  background-color: #8923d6;
   color: #fff;
 }
 
@@ -422,7 +422,7 @@ input:checked + .sliders:before {
   margin: 5px 20px;
   padding: 5px 25px;
   border: none;
-  background-color: #48b6e6;
+  background-color: #8923d6;
   color: #fff;
 }
 
@@ -465,6 +465,7 @@ input:checked + .sliders:before {
     left: 436px;
     font-size: 28px;
   }
+
   .switch {
     position: relative;
     display: inline-block;
@@ -659,7 +660,7 @@ textarea {
 .menu ul.main-menu li.dropdown a:hover,
 .menu ul.main-menu li.dropdown a:active,
 .menu ul.main-menu li.dropdown a:focus {
-  color: #27aae1;
+  color: #e127b9;
   background: none;
 }
 
@@ -667,7 +668,7 @@ textarea {
 .menu ul.main-menu li.open a:active,
 .menu ul.main-menu li.open a:focus {
   background: transparent;
-  color: #27aae1;
+  color: #e127b9;
 }
 
 .menu ul.main-menu li ul.dropdown-menu {
@@ -695,8 +696,7 @@ textarea {
   color: #e6e6e6;
 }
 
-.navbar-default .navbar-collapse,
-.navbar-default .navbar-form {
+.navbar-default .navbar-collapse .navbar-default .navbar-form {
   border: 0;
 }
 
@@ -776,7 +776,7 @@ textarea {
 
 .sign-up-form:after {
   content: '';
-  border-color: #27aae1 transparent transparent;
+  border-color: #8727e1 transparent transparent;
   border-style: solid;
   border-width: 40px 170px 0;
   bottom: -40px;
@@ -864,7 +864,7 @@ textarea {
   border-radius: 55px;
   margin: auto;
   border: 6px solid #fff;
-  box-shadow: 0 12px 12px rgba(39, 170, 225, 0.3);
+  box-shadow: 0 12px 12px rgba(151, 39, 225, 0.3);
   cursor: pointer;
   font-size: 35px;
   color: #fff;
@@ -1253,7 +1253,7 @@ textarea {
 }
 
 #lp-register ul.social-icons li a:hover {
-  color: #27aae1;
+  color: #8127e1;
   transition: all 0.5s;
 }
 
@@ -1266,8 +1266,7 @@ textarea {
 /*Profile Card CSS*/
 
 .profile-card {
-  background: linear-gradient(to bottom, rgba(39, 170, 225, 0.8), rgba(28, 117, 188, 0.8)),
-    url('http://placehold.it/1030x430') no-repeat;
+  background: linear-gradient(to bottom, rgba(119, 39, 225, 0.8), rgba(53, 28, 188, 0.8)), no-repeat;
   background-size: cover;
   width: 100%;
   min-height: 90px;
@@ -1471,7 +1470,7 @@ ul.online-users li span.online-dot {
 }
 
 .create-post .tools ul.publishing-tools li a:hover {
-  color: #27aae1;
+  color: #8727e1;
 }
 
 /*==================================================
@@ -1515,7 +1514,7 @@ video.post-video,
 
 .post-content .post-container .post-detail .reaction {
   position: absolute;
-  right: -65px;
+  right: -20px;
   top: 0;
 }
 
@@ -1807,10 +1806,10 @@ video {
 /*Timeline Menu for Large Screens*/
 
 .timeline-cover .timeline-nav-bar {
-  background: rgba(0, 0, 0, 0.7);
+  background: #272727;
   width: 100%;
   position: absolute;
-  bottom: 25px;
+  bottom: 0px;
 }
 
 .timeline-cover .timeline-nav-bar .profile-info {
@@ -1846,11 +1845,11 @@ video {
 }
 
 .timeline-cover .timeline-nav-bar .profile-menu li a.active {
-  color: #27aae1;
+  color: #e127ca;
 }
 
 .timeline-cover .timeline-nav-bar .profile-menu li a:hover {
-  color: #27aae1;
+  color: #e127de;
 }
 
 .timeline-cover .timeline-nav-bar ul.follow-me {
@@ -1911,7 +1910,7 @@ video {
 }
 
 .timeline-cover .navbar-mobile .mobile-menu ul li a.active {
-  color: #27aae1;
+  color: #7b27e1;
 }
 
 /*==================================================
@@ -1959,7 +1958,7 @@ video {
   width: 1px;
   height: 98%;
   left: -145px;
-  border-left: 2px solid #8dc63f;
+  border-left: 2px solid #863fc6;
   top: 15px;
 }
 
@@ -1970,7 +1969,7 @@ video {
 
 .timeline .post-content .post-date::before {
   content: '';
-  background: #8dc63f;
+  background: #863fc6;
   position: absolute;
   width: 20px;
   height: 20px;
@@ -2784,7 +2783,7 @@ ul.contact li i {
 .spinner {
   width: 40px;
   height: 40px;
-  background-color: #27aae1;
+  background-color: #9127e1;
   position: absolute;
   top: 48%;
   left: 48%;
