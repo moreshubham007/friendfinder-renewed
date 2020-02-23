@@ -1,3 +1,4 @@
 <?php 
-    echo "HEllo World";
+    echo "HEllo World"; 
+    Delete this file before futher editing
 ?>
