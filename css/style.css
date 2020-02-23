@@ -1078,7 +1078,7 @@ textarea {
 
 #lp-register .wrapper {
   padding-top: 140px;
-  padding-bottom: 15px;
+  padding-bottom: 140px;
 }
 
 .intro-texts {
@@ -2857,5 +2857,74 @@ ul.contact li i {
   font-size: 20px;
   text-align: center;
 }
-/* Login Message for PHP 
+@media screen and (max-width: 600px) {
+  .login-msg-container {
+    top: 110px;
+    left: 51px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .login-msg-container {
+    top: 110px;
+    left: 51px;
+  }
+  .login-msg-container {
+    width: 380px;
+    line-height: 20px;
+  }
+  .login-msg-true {
+    font-size: 18px;
+    height: 35px;
+    line-height: 40px;
+  }
+  .login-msg-false {
+    font-size: 18px;
+    height: 35px;
+    line-height: 40px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .login-msg-container {
+    top: 110px;
+    left: 10px;
+  }
+}
+@media screen and (max-width: 430px) {
+  .login-msg-container {
+    top: 110px;
+    left: 15px;
+  }
+  @media screen and (max-width: 320px) {
+    .login-msg-container {
+      top: 110px;
+      left: 0px;
+      width: 320px;
+    }
+    .login-msg-true {
+      font-size: 15px;
+      height: 30px;
+      line-height: 30px;
+    }
+    .login-msg-false {
+      font-size: 15px;
+      height: 30px;
+      line-height: 30px;
+    }
+  }
+  @media screen and (max-width: 376px) {
+    .login-msg-container {
+      top: 110px;
+      left: 0px;
+      width: 375px;
+    }
+  }
+  @media screen and (max-width: 370px) {
+    .login-msg-container {
+      top: 110px;
+      left: 0px;
+      width: 350px;
+    }
+  }
+  /* Login Message for PHP 
 ==============================================================================*/
+}
