@@ -1078,7 +1078,7 @@ textarea {
 
 #lp-register .wrapper {
   padding-top: 140px;
-  padding-bottom: 140px;
+  padding-bottom: 15px;
 }
 
 .intro-texts {
@@ -2832,3 +2832,30 @@ ul.contact li i {
   background-color: #fff;
   z-index: 9999999;
 }
+
+/* Login Message for PHP 
+==============================================================================*/
+.login-msg-container {
+  width: 440px;
+  height: 40px;
+  line-height: 40px;
+  position: absolute;
+  top: 180px;
+  left: 200px;
+}
+.login-msg-true {
+  background-color: lightgreen;
+  color: green;
+  border-radius: 30px;
+  font-size: 20px;
+  text-align: center;
+}
+.login-msg-false {
+  background-color: rgb(238, 160, 171);
+  color: rgb(245, 21, 21);
+  border-radius: 30px;
+  font-size: 20px;
+  text-align: center;
+}
+/* Login Message for PHP 
+==============================================================================*/
